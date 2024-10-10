@@ -36,7 +36,7 @@ async function getAIResponse(input, userId, messageID) {
 
 module.exports = {
   config: {
-    name: Ai',
+    name: 'ai',
     author: 'Arn',
     role: 0,
     category: 'ai',
