@@ -75,7 +75,7 @@ module.exports = {
  }
  const userName = ret[event.senderID].name;
  const { response, messageID } = await getAIResponse(input, userName, event.senderID, message.messageID);
- message.reply(`DALMUDO\n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━ \n `, messageID);
+ message.reply(`𝑆𝐴𝑇𝑂𝑅𝑈 𝔊𝔒𝔍𝔒 𝙗𝙤𝙩 \n━━━━━━━━━━━━━━━━\n${userName} , ${response} ━━━━━━━━━━━━━━━━ \n `, messageID);
 api.setMessageReaction("🍀", event.messageID, () => {}, true);
 
  });
